@@ -1,5 +1,6 @@
 # about matrices
 operations on matrices
+useful in linear algebra
 
 
 /* 
