@@ -32,7 +32,7 @@ useful in linear algebra
  * projection(array, arrayOfVectors) --> finds projection of the K vectors (from n*K arrayOfVectors) on the column space of n*m array and returns (n*K arrayOfProjections which contains) K projections for each vector { also saves the error vector }
  * error(array, arrayOfVectors) --> returns arrayOfVectors - projection(array, arrayOfVectors)
  
-  I
+ 
  here are some not so famous operations but anyway public:
  
  * removeColumn(array, int columnToRemove) --> removes column from an array and returns sub matrix { this method trusts the user that passed arguments will be correct: 0 <= columnToRemove < total numbers of columns}  
