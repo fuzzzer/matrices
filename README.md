@@ -16,7 +16,7 @@ useful in linear algebra
  * multiplyTwo(array1, array2) --> multiplies two matrices from left to right and returns it { column number of the left matrix must be equal to row number of right matrix}
  * multiply(array...) --> this method is generalized version of multiplyTwo { column number of the left matrix must be equal to row number of right matrix}
  * multiplyByConstant(int K, array) --> this method multiplies array by constant and returns result
- * addTwo(arr1, arr2) --> adds two matrices returns it { sizes of the matrices must be equal, this method does not change matrices passed by argument}
+ * addTwo(arr1, arr2) --> adds two matrices and returns it { sizes of the matrices must be equal, this method does not change matrices passed by argument}
  * add(array...) --> this method is generalized version of addTwo { sizes of the matrices must be equal}
  * subtract(arr1, arr2) --> subtracts second matrix from first 
  * transposeMatrix(array) --> returns transposes matrix passed by argument and returns it
