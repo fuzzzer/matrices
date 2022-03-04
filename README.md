@@ -1,5 +1,5 @@
 # about matrices
-operations on matrices
+operations on matrices,
 useful in linear algebra
 
 
