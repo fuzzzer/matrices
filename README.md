@@ -27,12 +27,12 @@ useful in linear algebra
  * lowerTriangularMatrixFromTranspose(array) --> finds upper triangular matrix and then transposes it
  * upperTriangularMatrixForRREF(array) --> returns upper triangular matrix that has all the zero rows (if any) at the bottom
  * RREF(array) --> returns row reduced echelon form of a matrix and also saves 
- * nullSpaceBasisMatrix(array) --> finds basis vectors for nullSpace and puts it in a matrix { and also saves nonPivotColumns, pivotColumns and rank as a global variables }
+ * nullSpaceBasisMatrix(array) --> finds basis vectors for nullSpace and puts it in a matrix { and also saves nonPivotColumns, pivotColumns and rank as global variables }
  * projectionMatrix(array) --> finds n*n projection matrix to project on the column space of n*m matrix
  * projection(array, arrayOfVectors) --> finds projection of the K vectors (from n*K arrayOfVectors) on the column space of n*m array and returns (n*K arrayOfProjections which contains) K projections for each vector { also saves the error vector }
  * error(array, arrayOfVectors) --> returns arrayOfVectors - projection(array, arrayOfVectors)
  
-  
+  I
  here are some not so famous operations but anyway public:
  
  * removeColumn(array, int columnToRemove) --> removes column from an array and returns sub matrix { this method trusts the user that passed arguments will be correct: 0 <= columnToRemove < total numbers of columns}  
