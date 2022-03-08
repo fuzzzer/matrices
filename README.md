@@ -7,7 +7,7 @@ useful in linear algebra
   This jar file contains class "matrices",
   which does various kinds of operations on matrices in a form of double[][]
   this class contains some public and private methods,
-  public methods are key methods they do the main operations about matrices
+  public methods are key methods, they do the main operations on matrices.
   private methods are some helpful methods for public methods to provide decomposed and clean code.
   all the public methods which provide you with the ability to easily do operations on matrices are:
  
