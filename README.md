@@ -11,7 +11,7 @@ useful in linear algebra
   private methods are some helpful methods for public methods to provide decomposed and clean code.
   all the public methods which provide you with the ability to easily do operations on matrices are:
  
- * printMatrix() --> prints matrix in a console program of ACM library
+ * printMatrix() --> prints matrix in a console
  * identityMatrix(rank) --> crates and returns n*n identity matrix of n rank
  * multiplyTwo(array1, array2) --> multiplies two matrices from left to right and returns it { column number of the left matrix must be equal to row number of right matrix}
  * multiply(array...) --> this method is generalized version of multiplyTwo { column number of the left matrix must be equal to row number of right matrix}
