@@ -142,7 +142,7 @@ public class matrices  {
 	public double[][] add(double[][]... A) {
 		double[][] result = A[0];
 		for(int i=1 ; i<A.length ; i++) {
-			result = add(result, A[i]);
+			result = addTwo(result, A[i]);
 		}
 		return result;
 	}
